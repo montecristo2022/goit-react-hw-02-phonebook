@@ -1,3 +1,8 @@
+import Input from '../components/Input'
+import Phone from './phonebook'
+import LoginForm from './Test'
+
+
 export const App = () => {
   return (
     <div
@@ -6,11 +11,21 @@ export const App = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        fontSize: 40,
+        fontSize: 20,
         color: '#010101'
       }}
     >
-      React homework template
+
+  
+  {/* <LoginForm onSubmit={values => console.log(values)} />, */}
+
+
+    
+
+<Phone/>
+
+      {/* <Input /> */}
+     
     </div>
   );
 };

@@ -1,0 +1,32 @@
+.mainText {
+    font-weight: 500;
+   
+}
+
+.contactText{
+    font-weight: 400;
+}
+
+.input {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 25px;
+    
+}
+
+.button {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 17px;
+    padding-right: 17px;
+    cursor: pointer;
+margin-top: 20px;
+border: 1px solid black;
+
+}
+
+.button:hover {
+    background-color: gainsboro;
+ 
+}
+
